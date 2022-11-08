@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{font-family: 'Raleway', sans-serif;}
+
+#footer {color: white;background: url("Rectangle 6 copy 2.png");}
+.products h6,h6{color: #292e82;}
+
+/* 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+} */
+
+.nav-link:after{
+
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color:  aqua;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
+} 
+
+.nav-link:hover:after{
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+
+.owl-prev {left: -20px; }
+.owl-next {right: -20px;}
+.owl-prev, .owl-next {position: absolute;top: 20px;}
+.owl-prev span, .owl-next span {padding: 0px; font-size: 30px; }
+
+.carousel{margin: 50px 50px;}
+.contactus {background: url("Rectangle 3 copy.png") center center no-repeat;padding: 40px 200px 40px 10px;}
+
+#navbarNavAltMarkup a:hover{color: aqua}
+
+#companyprofile {background-color: #00aeef;}
+
+.btn {background-color: rgb(0, 0, 93);}
+
+#banner {background: url("Rectangle 2.png") center center no-repeat;}
+
+.leader {background: url("Rectangle 3 copy.png");}
+
+@media only screen and (max-width: 576px) {
+  #footer {
+    text-align: center;
+  }
+
+  .leader {
+    padding: 150px 0px 150px 0px;
+    text-align: center;
+  }
+
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 30px 40px 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 776px) {
+  .leader {
+    padding: 150px 0px 150px 0px;
+    text-align: center;
+  }
+
+  .pill{
+    width: 30rem;
+    }
+
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 30px 40px 30px;
+  }
+}
+
+@media (min-width: 776px) and (max-width: 992px) {
+  .leader {
+    padding: 150px 0px 150px 120px;
+  }
+  .pill{
+  width: 30rem;
+  }
+
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 30px 40px 20px;
+  }
+
+  #contact {
+    background: url("Rectangle 8.png");
+  }
+  
+  #contactusbgimgforsm{
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .leader {
+    padding: 150px 0px 150px 120px;
+  }
+
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 10px 40px 20px;
+  }
+
+  #navbarNavAltMarkup a{
+    font-size: 1.1vw ;
+}
+
+#contact {
+  background: url("Rectangle 8.png");
+}
+#contactusbgimgforsm{
+  display: none;
+}
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 180px 40px 20px;
+  }
+
+  .leader {
+    padding: 150px 0px 150px 120px;
+  }
+
+  #navbarNavAltMarkup a{
+    font-size: 1.1vw ;
+}
+
+#contact {
+  background: url("Rectangle 8.png");
+}
+#contactusbgimgforsm{
+  display: none;
+}
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .contactus {
+    background: url("Rectangle 3 copy.png") center center no-repeat;
+    padding: 40px 200px 40px 30px;
+  }
+
+  .leader {
+    padding: 150px 0px 150px 150px;
+  }
+
+  #navbarNavAltMarkup a{
+    font-size: 1.1vw ;
+}
+
+#contact {
+  background: url("Rectangle 8.png");
+}
+
+#contactusbgimgforsm{
+  display: none;
+}
+
+
+}
